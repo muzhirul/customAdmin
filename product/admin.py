@@ -3,7 +3,7 @@ from .models import *
 # Register your models here.
 
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ['code','name','created_at']
+    list_display = ['code','name','status','created_at']
     save_on_top = True
 
     class Meta:
